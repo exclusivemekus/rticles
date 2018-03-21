@@ -14,7 +14,7 @@ $endif$
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\bibliographystyle{elsarticle-numbers}
+\bibliographystyle{elsarticle-num}
 \biboptions{sort&compress} % For natbib
 \usepackage{graphicx}
 \usepackage{booktabs} % book-quality tables
@@ -59,6 +59,7 @@ $if(geometry)$
 $endif$
 $if(natbib)$
 \usepackage{natbib}
+\biboptions{numbers}
 \bibliographystyle{plainnat}
 $endif$
 $if(biblatex)$
